@@ -1,0 +1,55 @@
+[05-Mar-2022 13:57:03 Asia/Kolkata] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/collabuathentica/public_html/PHPMailer/PHPMailer.php on line 3631
+[05-Mar-2022 13:59:30 Asia/Kolkata] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/collabuathentica/public_html/PHPMailer/PHPMailer.php on line 3631
+[05-Mar-2022 14:00:36 Asia/Kolkata] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/collabuathentica/public_html/PHPMailer/PHPMailer.php on line 3631
+[05-Mar-2022 14:09:19 Asia/Kolkata] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/collabuathentica/public_html/PHPMailer/PHPMailer.php on line 3631
+[31-May-2023 14:08:21 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/grupoorm/public_html/verify/PHPMailer/PHPMailer.php on line 3631
+[31-May-2023 14:11:11 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/grupoorm/public_html/verify/PHPMailer/PHPMailer.php on line 3631
+[22-Mar-2024 22:41:13 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('gravityflightcl...')
+#1 /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/gravityf/public_html/verify/sync.php(38): PHPMailer\PHPMailer\PHPMailer->send()
+#5 {main}
+  thrown in /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php on line 3631
+[22-Mar-2024 22:43:09 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('gravityflightcl...')
+#1 /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/gravityf/public_html/verify/sync.php(38): PHPMailer\PHPMailer\PHPMailer->send()
+#5 {main}
+  thrown in /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php on line 3631
+[22-Mar-2024 22:44:38 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('gravityflightcl...')
+#1 /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/gravityf/public_html/verify/sync.php(38): PHPMailer\PHPMailer\PHPMailer->send()
+#5 {main}
+  thrown in /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php on line 3631
+[22-Mar-2024 22:46:19 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('gravityflightcl...')
+#1 /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/gravityf/public_html/verify/sync.php(38): PHPMailer\PHPMailer\PHPMailer->send()
+#5 {main}
+  thrown in /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php on line 3631
+[22-Mar-2024 22:49:54 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('gravityflightcl...')
+#1 /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/gravityf/public_html/verify/sync.php(38): PHPMailer\PHPMailer\PHPMailer->send()
+#5 {main}
+  thrown in /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php on line 3631
+[22-Mar-2024 22:51:03 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php on line 3631
+[22-Mar-2024 22:52:41 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/gravityf/public_html/verify/PHPMailer/PHPMailer.php on line 3631
+[26-May-2024 11:20:58 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/capita12/public_html/PHPMailer/PHPMailer.php on line 3631
+[26-May-2024 11:23:55 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/capita12/public_html/PHPMailer/PHPMailer.php on line 3631
